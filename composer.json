@@ -1,0 +1,34 @@
+{
+	"name":"fritzmg/contao-austrian-districts",
+	"description":"Contao extension to provide a form field for Austrian districts. ",
+	"keywords":["contao", "austrian", "districts", "form", "field", "element"],
+	"type":"contao-module",
+	"homepage":"http://www.inspiredminds.at",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Fritz Michael Gschwantner",
+			"homepage":"http://www.inspiredminds.at",
+			"email":"fmg@inspiredminds.at",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"fmg@inspiredminds.at",
+		"issues":"https://github.com/fritzmg/contao-austrian-districts/issues",
+		"source":"https://github.com/fritzmg/contao-austrian-districts",
+		"forum":"https://community.contao.org/de"
+	},
+	"require":{
+		"php":">=5.4",
+		"contao/core":"~3.5",
+		"contao-community-alliance/composer-installer":"*"
+	},
+	"extra":{
+		"contao":{
+			"sources": {
+				"system/modules/austrian_districts":"system/modules/austrian_districts"
+			}
+		}
+	}
+}
